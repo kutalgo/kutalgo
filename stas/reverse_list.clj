@@ -1,6 +1,6 @@
-(ns main
+(ns reverse-list
   (:require
-   [clojure.test :refer [deftest is testing]]
+   [clojure.test :refer [deftest is]]
   ))
 
 (defn ->list [[x & xs]]
